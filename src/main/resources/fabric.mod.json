@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "my-addon",
+  "version": "${version}",
+  "name": "My Addon",
+  "description": "olivia addon",
+  "authors": ["olivia"],
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["com.olivia.addon.MyAddon"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.21.11",
+    "meteor-client": "*"
+  }
+}
